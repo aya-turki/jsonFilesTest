@@ -1,0 +1,32 @@
+{
+    "redmine": 17279,
+    "notes": "UAE - Disable IV Processing at Post Dubai.",
+    "multi_configs": [
+        {
+            "mission": {
+                "country_code": "ae",
+                "appointment_categories": {
+                    "Boarding Foil": {
+                        "facilities": [
+                            "Dubai"
+                        ],
+                        "archived": true
+                    }
+                }
+            }
+        },
+        {
+            "mission": {
+                "country_code": "ae",
+                "appointment_categories": {
+                    "Expedite IV": {
+                        "facilities": [
+                            "Dubai"
+                        ],
+                        "archived": true
+                    }
+                }
+            }
+        }
+    ]
+}
